@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    height: 700px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 480px;
+    height: 480px;
+    border: 2px solid;
+}
+.row{
+    display: flex;
+}
+  .square{
+    width: 60px;
+    height: 60px;
+    
+  }
+    .black{
+        background-color:rgb(123, 85, 85);
+    }  
+   .white{
+    background-color: white;
+   }
+     i{
+      font-size: 30px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+   }
