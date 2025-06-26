@@ -1,0 +1,116 @@
+
+:root{
+--Primary-color: hsl(286, 58%, 71%); 
+--Secondary-color:#FFFFFE; 
+--Accent-color:#B26520;
+}
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+     
+}
+.container{
+    width: 500px;
+    height: 400px;
+    /* border: 2px solid; */
+    border-radius: 20px 20px 20px 20px;
+     background-color:  hsl(286, 58%, 71%);
+}
+.child{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: end;
+
+
+}
+.top{
+    
+     width:50px;
+     height: 20px;
+     /* border: 2px solid; */
+      margin-left: 20px;
+      margin-top: 20px;
+    
+}
+.text{
+    width: 100%;
+    height: 120px;
+    /* border: 2px solid; */
+    text-align: center;
+   margin-top: 45px;
+
+}
+h1{
+   
+   text-align: center;
+    /* color: white; */
+}
+.get{
+    width: 100px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color:#B26520; 
+}
+.last{
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid; */
+    border-radius: 0px 0px 20px  20px ;
+    margin-top: 92px;
+    display: none;
+    background-color: #FFFFFE;
+}
+.last1{
+    width: 500px;
+    height: 45px;
+    /* border: 2px solid; */
+    display: flex;
+
+}
+.ch-1{
+   
+    width: 200px;
+    height: 10px;
+    border: 2px solid;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: hsl(286, 58%, 71%); ;
+}
+.ch-2{
+    width: 100px;
+    height: 10px;
+    border: 2px solid;
+    margin-top: 20px;
+}
+.ch-3{
+    width: 50px;
+    height: 10px;
+    border: 2px solid;
+    margin-top: 20px;
+    background-color: #B26520;
+}
+ .ch-4{
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 35px;
+    background-color:#0896ee;
+ }
+
+.container:hover .last{
+    display: block;
+}
